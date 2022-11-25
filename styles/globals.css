@@ -15,10 +15,68 @@ a {
   box-sizing: border-box;
 }
 
+.textAlign {
+  text-align: center;
+  width: 250px;
+  margin: auto;
+  margin-top: 10px;
+
+}
+
+.btnGroup {
+  display: flex;
+  justify-content: space-between;
+}
+
+.btn {
+  padding: 10px;
+  background: green;
+  color: #fff;
+  width: 140px;
+  border-radius: 10px;
+  border: none;
+  transition: .3s;
+  cursor: pointer;
+}
+
+.btn:hover {
+  border: 2px solid red;
+}
+
+.goback {
+
+  border: 1px solid red;
+  border-radius: 7px;
+  width: 150px;
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  padding: 10px;
+  transition: .3s;
+}
+
+.four {
+  padding: 50px 0px !important;
+  width: 300px;
+  margin: auto;
+
+  text-align: center;
+}
+
+.goback:hover {
+  background: rgb(23, 23, 23);
+  transform: scale(1);
+  width: 190px;
+  border: 1px solid #fff;
+}
+
 @media (prefers-color-scheme: dark) {
   html {
     color-scheme: dark;
   }
+
   body {
     color: white;
     background: black;

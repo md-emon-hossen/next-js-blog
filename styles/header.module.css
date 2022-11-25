@@ -1,0 +1,26 @@
+.header {
+    background: red;
+    border: 1px solid#fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    position: sticky;
+    top: 0px;
+    z-index: 100;
+}
+
+
+
+.ul {
+    display: flex;
+    list-style: none;
+    margin: 0px 7px;
+    width: 300px;
+    justify-content: space-evenly !important;
+}
+
+.li {
+    border: 1px solid #fff;
+    padding: 10px 25px;
+    border-radius: 5px;
+}

@@ -2,6 +2,7 @@
   "name": "hulu-2.0",
   "version": "0.1.0",
   "private": true,
+  "Type": "mondule",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
@@ -11,6 +12,7 @@
   "dependencies": {
     "eslint": "8.27.0",
     "eslint-config-next": "13.0.3",
+    "mongoose": "^6.7.3",
     "next": "13.0.3",
     "react": "18.2.0",
     "react-dom": "18.2.0"
