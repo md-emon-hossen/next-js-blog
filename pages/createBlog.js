@@ -3,7 +3,7 @@ import { useState } from "react";
 import styles from "../styles/Articals.module.css";
 
 
-export default function createBlog() {
+export default function CreateBlog() {
     const [title, settitle] = useState("");
     const [body, setbody] = useState("");
     const [rees, setrees] = useState('');

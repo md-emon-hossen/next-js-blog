@@ -2,7 +2,7 @@ import Link from "next/link";
 import { useRouter } from "next/router";
 import styles from "../../../styles/Articals.module.css";
 
-export default function index({ data }) {
+export default function Index({ data }) {
 
     const reouter = useRouter();
     async function handleClikdelete(id) {
