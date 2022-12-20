@@ -2,7 +2,7 @@ import { useRouter } from "next/router";
 import { useState } from "react";
 import styles from "../../styles/Articals.module.css";
 
-export default function index({ data }) {
+export default function Index({ data }) {
     const router = useRouter();
     const [title, settitle] = useState(data.title);
     const [body, setbody] = useState(data.body);

@@ -7,8 +7,8 @@ export default function articals({ data }) {
             <h1 className='textAlign'> All Blogs</h1>
             {
                 data.map((i, index) => {
-                    return <Link href={`/blog/${i._id}`} passHref >
-                        <div key={index} className={sytles.ArticalsWer}>
+                    return <Link key={index} href={`/blog/${i._id}`} passHref >
+                        <div className={sytles.ArticalsWer}>
                             <h1>{i.title}</h1>
                             <p>{i.body}</p>
                         </div></Link>
