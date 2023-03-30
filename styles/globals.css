@@ -1,84 +1,167 @@
-html,
-body {
-  padding: 0;
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+.main {
+  background: #3699f7;
+  color: #ddd;
+  height: 700px;
+  position: relative;
 }
 
-a {
-  color: inherit;
-  text-decoration: none;
+.sbg {
+  position: absolute;
+  bottom: 0;
 }
 
-* {
-  box-sizing: border-box;
+.secsection {
+  height: 400px;
 }
 
-.textAlign {
-  text-align: center;
-  width: 250px;
-  margin: auto;
-  margin-top: 10px;
-
-}
-
-.btnGroup {
+.secsection>div {
+  height: 200px;
+  color: black;
   display: flex;
   justify-content: space-between;
 }
 
-.btn {
-  padding: 10px;
-  background: green;
-  color: #fff;
-  width: 140px;
-  border-radius: 10px;
-  border: none;
-  transition: .3s;
-  cursor: pointer;
-}
-
-.btn:hover {
-  border: 2px solid red;
-}
-
-.goback {
-
-  border: 1px solid red;
-  border-radius: 7px;
-  width: 150px;
+.markwiens {
   display: flex;
-  justify-content: center;
-  margin: auto;
-  margin-bottom: 20px;
-  margin-top: 20px;
-  padding: 10px;
-  transition: .3s;
 }
 
-.four {
-  padding: 50px 0px !important;
-  width: 300px;
-  margin: auto;
+.markwiens>div {
+  width: fit-content;
+}
 
+.banner {
+  padding-top: 40px;
+  text-align: right;
+}
+
+.banertext {
+  padding: 60px;
+  color: #fff;
+}
+
+.banertext>h1 {
+  font-weight: bold;
+
+}
+
+.banertext>button {
+  border: none;
+  background: #fff;
+  color: black;
+  padding: 10px 15px;
+  border-radius: 10px;
+  font-weight: bold;
+
+}
+
+.prigingheadeer {
   text-align: center;
+  color: black;
+  padding-top: 50px;
 }
 
-.goback:hover {
-  background: rgb(23, 23, 23);
-  transform: scale(1);
-  width: 190px;
-  border: 1px solid #fff;
+
+
+.pricignWrper>div {
+
+  border-radius: 10px;
+  color: black;
 }
 
-@media (prefers-color-scheme: dark) {
-  html {
-    color-scheme: dark;
-  }
+.card-header {
+  color: black !important;
+  background: #f0f0f0 !important;
+  border: none !important;
 
-  body {
-    color: white;
-    background: black;
-  }
+}
+
+.card {
+  background: #f0f0f0;
+  border: none !important;
+  border-radius: 10px !important;
+
+
+}
+
+.card:hover {
+  background: #3699f7;
+  color: #fff;
+}
+
+.card:hover .card-header {
+  background: #3699f7 !important;
+  color: #fff !important;
+}
+
+.card:hover .text-muted {
+
+  color: #fff !important;
+}
+
+.card:hover .btn {
+  background: #fff !important;
+  color: black !important;
+}
+
+.btn {
+  background: #3699f7 !important;
+  color: #fff;
+}
+
+.hh {
+  color: black;
+  margin-top: 90px !important;
+  margin-bottom: 90px !important;
+}
+
+.hh button {
+  background: #3699f7;
+  color: #fff;
+  border: none;
+  padding: 8px 15px;
+  border-radius: 10px;
+
+}
+
+.fututes {
+  color: black;
+}
+
+.futuresImtem h1 {
+  color: #3699f7 !important;
+  font-weight: bold;
+  font-size: 60px;
+  margin-bottom: 0px !important;
+}
+
+.futuresImtem>div {
+  display: flex;
+  grid-gap: 60px;
+  align-items: center;
+}
+
+.futuresImtem h5 {
+  padding-top: 25px;
+}
+
+.lokking {
+  background: #3699f7;
+  color: #fff !important;
+  height: 380px;
+  display: flex;
+  align-items: center;
+}
+
+.lokking button {
+  background: #fff;
+  color: black;
+  padding: 12px;
+  border-radius: 30px !important;
+  border: none;
+
+}
+
+.container {
+  width: 80%;
+  margin: auto;
 }

@@ -1,0 +1,38 @@
+.loginWrper {
+    background: #3699f7;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.login {
+    width: 300px;
+    height: fit-content;
+    border-radius: 10px;
+    background: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.login>h1 {
+    text-align: center;
+}
+
+.login>input {
+    width: 80%;
+    margin: auto;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    padding: 7px;
+}
+
+.login>button {
+    width: 80%;
+    margin: auto;
+    margin-bottom: 25px;
+    padding: 7px;
+    border-radius: 5px;
+}

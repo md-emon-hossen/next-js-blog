@@ -1,16 +1,39 @@
-import Link from "next/link";
+import Image from "next/image";
+import logo from "..//public/logo.png";
 import styles from "../styles/header.module.css";
 export default function Header() {
     return (
         <header className={styles.header}>
 
-            <h1 >Web Dev</h1>
 
-            <nav>
-                <ul className={styles.ul}>
-                    <Link className={styles.li} href="/">Home</Link>
-                </ul >
-            </nav >
+
+            <nav class="container navbar navbar-expand-lg navbar-light ">
+                <a class="navbar-brand" href="#">
+                    <Image src={logo} alt="logo" />
+                </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse " id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="#">Home </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Features</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Pricing</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link disabled" href="#">Disabled</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+
+
+
         </header >
     )
 }
